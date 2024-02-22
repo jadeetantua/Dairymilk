@@ -1,0 +1,93 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0cc0df;
+        }
+
+        header {
+            background-color: #0cc0df;
+            color: #fff;
+            text-align: center;
+            padding: 0.5px ;
+            font-family: sans-serif;
+        }
+		
+		.logo {
+		width: 250px; /* Adjust the width as needed */
+		height: 250px; /* Automatically adjust the height to maintain aspect ratio */
+		}
+
+        nav {
+            background-color: #231f20;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #222020;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        u {
+            text-decoration: underline;
+            /* Other text styles */
+            color: #000000; /* Text color */
+            font-style: bold; /* Text style */
+        }
+
+        .service:hover {
+            background-color: #bebcbc;
+        }
+                
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .service {
+            text-align: center;
+            padding: 20px;
+            width: 30%;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .service h3 {
+            margin-top: 0;
+        }
+        
+        .service p {
+			font-weight: bold;
+            font-size: 20px;
+            color: #000000;
+
+        }        
+
